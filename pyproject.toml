@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hawkingvoicetts"
+version = "0.1.0"
+description = "Chat with a local Ollama model and hear its replies spoken aloud, in a Hawking-style robotic voice or realistic neural voices."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Kross" }]
+keywords = ["ollama", "tts", "text-to-speech", "espeak", "piper", "offline", "local-ai"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+dependencies = [
+    "requests>=2.31",
+    "questionary>=2.0",
+    "piper-tts>=1.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/kross/hawkingvoicetts"
+
+[project.scripts]
+hawkingvoicetts = "hawkingvoicetts.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hawkingvoicetts*"]

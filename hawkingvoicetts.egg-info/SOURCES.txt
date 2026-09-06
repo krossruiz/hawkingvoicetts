@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+hawkingvoicetts/__init__.py
+hawkingvoicetts/cli.py
+hawkingvoicetts/config.py
+hawkingvoicetts/hawking_tts.py
+hawkingvoicetts/model_wizard.py
+hawkingvoicetts/tts_engine.py
+hawkingvoicetts/voices_catalog.py
+hawkingvoicetts.egg-info/PKG-INFO
+hawkingvoicetts.egg-info/SOURCES.txt
+hawkingvoicetts.egg-info/dependency_links.txt
+hawkingvoicetts.egg-info/entry_points.txt
+hawkingvoicetts.egg-info/requires.txt
+hawkingvoicetts.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+hawkingvoicetts = hawkingvoicetts.cli:main
